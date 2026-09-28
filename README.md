@@ -1,23 +1,23 @@
-# java-bank-system
+# Java Bank System
 
 Portfolio project by [abdankribo](https://github.com/abdankribo).
 
-## Project
+## What it does
+OOP banking transaction core using BigDecimal.
 
-Batch 4 portfolio project.
-
-## Features
-
-- Modern UI/UX
-- Responsive design
-- Functional application logic
-- Custom SVG assets
-- Documentation
+## Included
+- Functional core implementation
+- Responsive browser showcase in `web/index.html`
+- Custom SVG logo in `assets/logo.svg`
 - No external database required
 
-## Author
+## Run the core
+```bash
+javac src/Main.java && java -cp src Main
+```
 
-Abdank Ribo
+## UI
+Open `web/index.html` in a browser. The UI is a companion showcase; the language implementation remains the source of truth.
 
-GitHub:
-https://github.com/abdankribo
+## License
+MIT
